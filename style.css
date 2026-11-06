@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsla(0, 0%, 100%, 0.75);
+}
+.container{
+    width: 150px;
+    height: 300px;
+    border: none;
+    background-color: hsl(179, 100%, 13%)
+;
+    padding: 30px;
+    border-radius: 9px;
+}
+.container h1{
+    color: hsl(0, 0%, 95%);
+    font-size: 30px;
+}
+.container button{
+    border-radius: 9px;
+    border: none;
+    padding: 11px;
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+}
